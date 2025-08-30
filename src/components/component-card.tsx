@@ -16,8 +16,8 @@ export function ComponentCard({ name, url }: ComponentCardProps) {
     return (
         <button
             className={cn(
-                'w-80 h-80 border-2 border-white rounded-lg cursor-pointer',
-                'hover:shadow-white hover:scale-105 transition-all hover:bg-zinc-900'
+                'w-80 h-80 border-2 border-foreground rounded-lg cursor-pointer',
+                'hover:shadow-foreground hover:scale-105 transition-all hover:bg-primary-foreground'
             )}
             onClick={handleRedirect}
         >
